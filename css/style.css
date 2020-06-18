@@ -1,0 +1,578 @@
+*{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1{
+	font-size: 250% !important;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+}
+/*------------------------------Header and Footer-Start---------------------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fixed-top{
+	position: absolute !important;
+	background: #635e5cde;
+}
+
+.sticky {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+}
+
+.carousel-item{
+	height: 100vh;
+	min-height: 300px;
+	background-size: 100% !important;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+}
+
+.carousel-caption{
+	top: 32%;
+	bottom: 35% !important;
+	left: 12% !important;
+	text-align: unset !important;
+}
+
+.carousel-caption h1{
+
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	margin-bottom: 40px;
+	color: white !important;
+}
+
+.carousel-caption p{
+	width: 50%;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 4rem !important;
+	color: white !important;
+}
+
+.carousel-indicators li{
+	background-color: #ff4500 !important;
+}
+
+.carousel-control-next, .carousel-control-prev{
+	color: #ff4500 !important;
+}
+
+.navbar-brand{
+    margin-left: 12px;
+}
+
+.navbar-light .navbar-brand{
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #ff4500 !important;
+}
+
+
+.nav-link{
+	margin: 0px 5px;
+	color: white !important;
+}
+
+.nav-link:hover{
+	border: 1px solid #ff4500;
+	border-radius: 4px;
+}
+
+.nav-link:focus{
+	background-color: #ff4500 !important;
+	border-radius: 4px;
+}
+
+nav.fixed-top .nav-item .nav-link:before{
+	background-color: #ff4500 !important;
+}
+
+.w-100{
+	height: auto;
+}
+
+.drk:after{
+	background: #000;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0.3;
+}
+
+.btn{
+	color: white !important;
+}
+
+.btn-outline-success{
+	background-color: #ff4500 !important;
+	border: 1px solid #ff4500 !important;
+}
+
+.btn-outline-success:hover{
+	color: #ff4500 !important;
+	background-color: unset !important;
+	border: 1px solid #ff4500 !important;
+}
+
+.btn-outline-success:focus {
+    box-shadow: 0 0 0 0.2rem #ff4500 !important;
+}
+
+footer{
+	background-color: #000000cc;
+	height: 50px;
+}
+
+footer p{
+	color: white !important;
+	padding-top: 13px;
+}
+
+/*------------------------------Header and Footer-End---------------------------------*/
+
+/*----------------------------About Me-Start--------------------------------*/
+
+.about1{
+	animation-delay: 0.7s;
+}
+
+.about2{
+	animation-delay: 1.4s;
+}
+
+
+.about-img:before {
+    content: "";
+    background-color: #ff45005c;
+    /* opacity: 0.5; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -4%;
+    left: 5%;
+    z-index: -1;
+}
+
+.about-img {
+    position: relative;
+}
+
+div .fontawesome ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+div .fontawesome ul li a{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 36px;
+	font-size: 21px;
+	margin: 0 5px;
+	display: block;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	border: 3px solid #ff4500;
+	z-index: 1;
+}
+
+div .fontawesome ul li a .fa{
+	position: relative;
+	
+	transition: .5%;
+}
+
+div .fontawesome ul li a:hover .fa{
+	color: #fff !important;
+	transform: rotateY(360deg);
+	z-index: 3;
+}
+
+div .fontawesome ul li a:before{
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #f00;
+	transition: .5s;
+	z-index: 2;
+	color: #fff;
+}
+
+div .fontawesome ul li a:hover:before{
+	top: 0;
+}
+
+div .fontawesome ul li:nth-child(1) a:before{
+	background: #3b5999;
+}
+
+div .fontawesome ul li:nth-child(2) a:before{
+	background: #0077B5;
+}
+
+div .fontawesome ul li:nth-child(3) a:before{
+	background: #25D366;
+}
+
+div .fontawesome ul li:nth-child(4) a:before{
+	background: #e4405f;
+}
+
+div .fontawesome ul li:nth-child(5) a:before{
+	background: #dd4b39;
+}
+
+div .fontawesome ul li:nth-child(1) a:hover{
+	border-color: #3b5999;
+}
+
+div .fontawesome ul li:nth-child(2) a:hover{
+	border-color: #0077B5;
+}
+
+div .fontawesome ul li:nth-child(3) a:hover{
+	border-color: #25D366;
+}
+
+div .fontawesome ul li:nth-child(4) a:hover{
+	border-color: #e4405f;
+}
+
+div .fontawesome ul li:nth-child(5) a:hover{
+	border-color: #dd4b39;
+}
+
+div .fontawesome ul li:nth-child(1) a{
+	border-color: #3b5999;
+	color: #3b5999 !important;
+}
+
+div .fontawesome ul li:nth-child(2) a{
+	border-color: #0077B5;
+	color: #0077B5 !important;
+}
+
+div .fontawesome ul li:nth-child(3) a{
+	border-color: #25D366;
+	color: #25D366 !important;
+}
+
+div .fontawesome ul li:nth-child(4) a{
+	border-color: #e4405f;
+	color: #e4405f !important;
+}
+
+div .fontawesome ul li:nth-child(5) a{
+	border-color: #dd4b39;
+	color: #dd4b39 !important;
+}
+
+
+/*----------------------------About Me-End--------------------------------*/
+
+/*----------------------------Services-Start--------------------------------*/
+
+.sersection{
+	background-color: #d4cdcd;
+    padding: 2rem 0rem;
+}
+
+.services{
+	margin: 90px auto;
+	text-align: center;
+}
+
+h1{
+	letter-spacing: 1px;
+}
+
+.Services h3:after{
+	content: '';
+	background: #ff4500;
+	display: block;
+	width: 120px;
+	height:3px;
+	margin: 10px auto;
+}
+
+.fa-laptop:before,.fa-cogs:before,.fa-mobile:before,.fa-rocket:before,.fa-pencil:before,.fa-cog:before,.fa-envelope:before{
+	color: #ff4500;
+}
+
+.servbold h3{
+	font-weight: 300;
+}
+
+.icon{
+	font-size: 40px;
+	margin: 20px auto;
+	padding: 10px;
+	height: 80px;
+	width: 80px;
+	border: 2px solid #ff4500;
+	border-radius: 50%;
+}
+
+.border-gap{
+	border-radius: 10px;
+    border: 1px solid #ff4500;
+    background-color: white;
+    padding: 10px;
+    margin: 7px -8px;
+}
+
+.border-gap:hover{
+	box-shadow: 8px 10px 8px rgba(144, 98, 66, 0.53);
+	transform: translate(0px, -5px);
+    transition: transform 0.7s, opacity 0.3s !important;
+}
+
+.service1{
+	animation-delay: 0.3s;
+}
+
+.service2{
+	animation-delay: 0.6s;
+}
+
+.service3{
+	animation-delay: 0.9s;
+}
+
+.service4{
+	animation-delay: 1.2s;
+}
+
+.service5{
+	animation-delay: 1.5s;
+}
+
+.service6{
+	animation-delay: 1.8s;
+}
+/*----------------------------Services-End--------------------------------*/
+
+/*----------------------------Work-Start--------------------------------*/
+
+.workimgwidth{
+	width: inherit;
+}
+
+.workgap{
+	margin: 0px -8px;
+	padding: 10px 0px;
+	height: 100%;
+	transform: scale(1.087);
+    opacity: 1;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.workgap:hover{
+	opacity: 1;
+	transform: scale(1);
+}
+
+
+
+/*----------------------------Work-End--------------------------------*/
+
+/*-----------------------------Contact-Start---------------------------------*/
+
+.Cnt .form-control{
+	border-radius:0.8rem;
+}
+
+.Cnt .form-control:focus{
+	box-shadow: 0 0 0 0.2rem #ff450091;
+	border-color: #ff450000 !important;
+}
+
+.btnContact{
+	border: none;
+    border-radius: .25rem;
+    padding: 1.5%;
+    background: #ff4500;
+    font-weight: 600;
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.btnContact:focus{
+	border-color: #ff4500 !important;
+}
+
+.cntmb{
+	margin-bottom: 1rem;
+}
+
+
+/*-----------------------------Contact-End-----------------------------------*/
+
+/*------------------------------------------------------------Media Queries------------------------------------------------------------*/
+
+/*------------------------------------------------------------Phone Portrait-----------------------------------------------------------*/
+
+@media (min-width: 320px) and (max-width: 480px){
+
+/*------------------------------Header-Start---------------------------------*/
+h1 {
+    font-size: 175% !important;
+}
+
+.bannermvmb{
+	margin-bottom: 2rem;
+}
+
+.bannerwidth {
+    max-width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+	.navbar-nav .ml-auto{
+		background: rgba(0,0,0,0.5) !important;
+	}
+	.navbar-toggler{
+		padding: 2px 6px !important;
+		font-size: 18px !important;
+		line-height: 0.3 !important;
+		background: #fff !important;
+	}
+	
+	.navbar-collapse{
+		background-color:#ff450036;
+		text-align: center;
+		border-radius: 10px;
+	}
+	.carousel-caption{
+	top: 32% !important;
+	bottom: 0% !important;
+	left: 12% !important;
+	text-align: unset !important;
+}
+
+.carousel-caption h5{
+	font-size: 26px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 12px;
+	margin-bottom: 3rem;
+}
+
+.carousel-caption p{
+	width: 100%;
+	font-size: 16px;
+	line-height: 1.4;
+	margin-bottom: 3rem !important;
+}
+.navbar-light .navbar-toggler{
+	background-color: #ff4500 !important;
+}
+
+/*------------------------------Header-End---------------------------------*/
+
+/*----------------------------About Me-Start------------------------------*/
+
+.about-img:before{
+	background: unset !important;
+	left: 0% !important;
+}
+
+.about_content{
+	margin-top: 50px;
+}
+
+div .fontawesome ul li a{
+	margin: 0 10px !important;
+}
+
+/*----------------------------About Me-End--------------------------------*/
+
+/*----------------------------Services-Start--------------------------------*/
+
+
+/*----------------------------Services-End--------------------------------*/
+
+}
+
+/*------------------------------------------------------------Tablet Portrait-----------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+/*------------------------------Header-Start---------------------------------*/
+
+.navbar-nav .ml-auto{
+		background: rgba(0,0,0,0.5) !important;
+	}
+	.navbar-toggler{
+		padding: 2px 6px !important;
+		font-size: 18px !important;
+		line-height: 0.3 !important;
+		background: #fff !important;
+	}
+
+	.navbar-collapse{
+		background-color:#ff450036;
+		text-align: center;
+		border-radius: 10px;
+	}
+
+	.bannerwidth {
+    max-width: 100%;
+    height: 100vh;
+    object-fit: cover;
+	}
+
+	.navbar-light .navbar-toggler {
+    background-color: #ff4500 !important;
+	}
+
+	.bannermvmb{
+	margin-bottom: 3rem;
+	}
+
+/*------------------------------Header-End---------------------------------*/
+
+/*----------------------------Services-Start--------------------------------*/
+
+h3{
+	font-size: 23px !important;
+}
+
+/*----------------------------Services-End--------------------------------*/
+
+}
+
+/*-----------------------------------------------------------Tablet Landscaspe---------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+/*------------------------------Header-Start---------------------------------*/
+.navbar-collapse {
+    background-color: unset;
+}
+
+
+/*------------------------------Header-End----------------------------------*/
+}
