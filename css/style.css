@@ -404,7 +404,7 @@ h1{
 }
 
 .Cnt .form-control:focus{
-	box-shadow: 0 0 0 0.2rem #ff450091;
+	box-shadow: 0 0 0 1px #ff450091;
 	border-color: #ff450000 !important;
 }
 
