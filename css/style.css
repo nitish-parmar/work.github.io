@@ -677,7 +677,7 @@ h3{
 
 /*------------------------------Header-Start---------------------------------*/
 .navbar-collapse {
-    background-color: unset;
+    background-color: unset !important;
 }
 
 
