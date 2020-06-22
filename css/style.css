@@ -543,6 +543,59 @@ div .fontawesome ul li a{
 
 }
 
+/*------------------------------------------------------------Phone Landscape---------------------------------------------------*/
+
+@media (min-width: 481px) and (max-width: 767px){
+
+/*------------------------------Header-Start---------------------------------*/
+
+.navbar-toggler{
+		position: relative;
+		right: -26px;
+		transform:translate(-50%);
+		cursor: pointer;
+		padding: 0 !important;
+	}
+	
+	.navbar-toggler span{
+		width:40px;
+		height:3px;
+		display: block;
+		background: #ff4500;
+		margin:8px;
+		cursor: pointer;
+		transition:0.3s all;
+	}
+
+	.navbar-toggler.active span:nth-child(1){
+		transform: rotate(45deg);
+		position: absolute;
+	}
+	.navbar-toggler.active span:nth-child(2){
+		display:none;
+	}
+	.navbar-toggler.active span:nth-child(3){
+		transform: rotate(-45deg);
+	}
+
+.bttn:focus{
+	outline: unset !important;
+}
+
+.navbar-light .navbar-toggler{	
+    color: rgba(0,0,0,0) !important;
+    border-color: rgba(0,0,0,0) !important;
+}
+	
+.navbar-collapse{
+		background-color:#ff450036 !important;
+		text-align: center;
+		border-radius: 10px;
+	}
+
+/*------------------------------Header-End---------------------------------*/
+}
+
 /*------------------------------------------------------------Tablet Portrait-----------------------------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 1024px){
@@ -553,14 +606,40 @@ div .fontawesome ul li a{
 		background: rgba(0,0,0,0.5) !important;
 	}
 	.navbar-toggler{
-		padding: 2px 6px !important;
-		font-size: 18px !important;
-		line-height: 0.3 !important;
-		background: #fff !important;
+		position: relative;
+		right: -26px;
+		transform:translate(-50%);
+		cursor: pointer;
+		padding: 0 !important;
+	}
+	
+	.navbar-toggler span{
+		width:40px;
+		height:3px;
+		display: block;
+		background: #ff4500;
+		margin:8px;
+		cursor: pointer;
+		transition:0.3s all;
 	}
 
+	.navbar-toggler.active span:nth-child(1){
+		transform: rotate(45deg);
+		position: absolute;
+	}
+	.navbar-toggler.active span:nth-child(2){
+		display:none;
+	}
+	.navbar-toggler.active span:nth-child(3){
+		transform: rotate(-45deg);
+	}
+
+.bttn:focus{
+	outline: unset !important;
+}
+
 	.navbar-collapse{
-		background-color:#ff450036;
+		background-color:#ff450036 !important;
 		text-align: center;
 		border-radius: 10px;
 	}
@@ -572,7 +651,8 @@ div .fontawesome ul li a{
 	}
 
 	.navbar-light .navbar-toggler {
-    background-color: #ff4500 !important;
+    color: rgba(0,0,0,0) !important;
+     border-color: rgba(0,0,0,0) !important;
 	}
 
 	.bannermvmb{
