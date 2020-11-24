@@ -449,7 +449,7 @@ h1{
 .cntmb{
 	margin-bottom: 1rem;
 }
-.button:focus, .button:hover {
+button:focus, button:hover {
     outline: unset !important;
 }
 
